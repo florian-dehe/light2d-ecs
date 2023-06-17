@@ -1,7 +1,7 @@
 # ECS Cpp Demo
 > Simple ECS implementation in C++
 
-# Dependencies
+## Dependencies
 This repo uses CMake and GoogleTest (as submodule under `lib/`).
 
 ## CMake generation
@@ -21,6 +21,3 @@ The test program lies under `build/test/`. Simply execute this line (depending o
 ```sh
 ./build/test/light2d-ecs_test
 ```
-
-## Run the demo
-The build example should be found at `<build_folder>/example/ecs-demo-example`
