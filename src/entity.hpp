@@ -4,7 +4,7 @@
 #include <cstdint>
 
 namespace ecs {
-  typedef int16_t entity;
+  typedef int32_t entity;
 }
 
 #endif // !ENTITY_H

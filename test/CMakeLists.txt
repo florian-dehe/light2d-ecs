@@ -2,7 +2,14 @@ cmake_minimum_required(VERSION 3.10)
 
 set(BINARY ${CMAKE_PROJECT_NAME}_test)
 
-set(SRCS main.cpp component.cpp system.cpp)
+set(SRCS main.cpp 
+  entity.cpp
+
+  component.cpp 
+  test_component.hpp
+
+  system.cpp
+)
 
 add_executable(${BINARY} ${SRCS})
 add_test(NAME ${BINARY} COMMAND ${BINARY})
